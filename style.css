@@ -1,0 +1,61 @@
+#container{
+	width: 800px;
+	margin: auto;
+}
+.header{
+	border: 1px solid orange;
+	background-color: green;
+	margin: 5px;
+	padding: 5px 10px;
+	color: white;
+}
+.link{
+	width: 175px;
+	margin: 5px;
+	color: black;
+	float: left;
+	text-align: justify;
+}
+.link p{
+	display: block;
+	text-decoration: none;
+	border: 1px solid green;
+	background-color: lightgreen;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+
+}
+.link p:hover{
+	background-color: green;
+	color: white;
+}
+.middle{
+	float: left;
+	width: 365px;
+	padding: 5px;
+	margin-left: 10px;
+	text-align: justify;
+}
+.middle a {
+	margin: 3px;
+}
+.side{
+	background-color:#4B8BF4;
+	color: black;
+	padding: 5px;
+	width: 200px;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-top: 8px;
+	border-radius: 5px;
+}
+.footer{
+	clear: left;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: gray;
+	margin-bottom: 20px;
+	padding: 20px;
+}
